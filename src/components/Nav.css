@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+/* Typography */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@300;400;900&display=swap')   */
+
+/* Nav */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu-item{
+    padding: 1em;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+}
