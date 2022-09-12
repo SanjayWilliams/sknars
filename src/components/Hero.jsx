@@ -1,13 +1,14 @@
 import "./Hero.css"
+import {Link} from "react-router-dom"
 
 function Hero() {
     return (
         <div className="hero-container">
             <div className="hero-text-container">
-                <h1 className="hero-title">Welcome to SKNARS, Friendship Over The Waves</h1>
+                <h1 className="hero-title">Welcome to SKNARS, Amateur Radio Station V44KR</h1>
                 <div>
-                    <button className="btn btn-hero">Contact Us</button>
-                    <button className="btn btn-hero">About Us</button>
+                    <Link style={{ textDecoration: 'none' }} className="btn btn-hero" to="/about">About</Link>
+                    <Link style={{ textDecoration: 'none' }} className="btn btn-hero" to="/contact">Contact</Link>
                 </div>
                 
             </div>

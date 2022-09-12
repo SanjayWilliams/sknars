@@ -5,6 +5,10 @@
 img {
     width: 100%;
 }
+
+Link {
+    text-decoration: none;
+}
 .hero-container {
     text-align: center;
     min-height: 80vh;
