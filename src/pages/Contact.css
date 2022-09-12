@@ -18,6 +18,10 @@
     margin-bottom: 0;
 }
 
+.contact-subtitle {
+    text-transform: uppercase;
+}
+
 .divider {
     height: 2px;
     background-color: #14213D;
