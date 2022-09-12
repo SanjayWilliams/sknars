@@ -5,7 +5,7 @@ function Article() {
         <div className="article-container">
             <img className="article-img" src="radio.jpg"/>
             <div className="article-text-container">
-                <h2 className="article-title">Newsletter from our President</h2>
+                <h2 className="article-title">Message from our President</h2>
                 <p className="article-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat sem 
                     malesuada sem sollicitudin ornare. Nullam faucibus mauris vel arcu interdum, 
                     ut sollicitudin augue elementum. Nam efficitur turpis ipsum, quis sollicitudin erat 
