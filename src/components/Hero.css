@@ -9,6 +9,12 @@ img {
 Link {
     text-decoration: none;
 }
+
+.call-sign {
+    color: #14213D;
+    font-weight: 900;
+    border-bottom: 5px solid #14213D;
+}
 .hero-container {
     text-align: center;
     min-height: 80vh;
