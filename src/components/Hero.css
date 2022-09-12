@@ -13,7 +13,6 @@ Link {
 .call-sign {
     color: #14213D;
     font-weight: 900;
-    border-bottom: 5px solid #14213D;
 }
 .hero-container {
     text-align: center;
@@ -69,6 +68,11 @@ Link {
     .hero-img-container{
         width: 45%;
     }
+
+    .call-sign {
+        border-bottom: 5px solid #14213D;
+    }
+
     .btn-hero {
         margin-top: 0px;
         margin-right: 2em;
