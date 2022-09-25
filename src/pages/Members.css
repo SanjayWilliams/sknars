@@ -1,0 +1,38 @@
+img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+h1 {
+    margin-bottom: 2em
+}
+h2 {
+    margin-bottom: 0;
+}
+
+.members-container {
+    padding: 2em;
+}
+
+.section-container {
+    margin-bottom: 2em;
+}
+
+.italics {
+    font-style:italic;
+}
+
+.bold-italics {
+    font-style:italic;
+    font-weight: bold;
+}
+
+.callsign {
+    font-weight: bold;
+}
+
+.extra-space {
+    margin-top: 2em
+}
