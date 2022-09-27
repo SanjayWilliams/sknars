@@ -3,7 +3,7 @@ import "./Article.css"
 function Article() {
     return (
         <div className="article-container">
-            <img className="article-img" src="radio.jpg"/>
+            <img className="article-img" src="president.jpg"/>
             <div className="article-text-container">
                 <h2 className="article-title">Message from our President</h2>
                 <p className="article-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat sem 
