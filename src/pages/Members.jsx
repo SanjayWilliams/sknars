@@ -10,14 +10,14 @@ function Members() {
                 <img />
                 <div>
                     <p className="italics">Back Row, Left to Right:</p>
-                    <p>Kennedy DeSilver <span className="callsign">V44KEN</span> - Assistance Secretary <br/>
+                    <p>Kennedy DeSilver <span className="callsign">V44KEN</span> - Assistant Secretary <br/>
                     Roosevelt Howe <span className="callsign">V44KHR</span> - Vice President
                     </p>
                     <p className="italics extra-space">Front Row, Left to Right</p>
                     <p>
                     Wilma Hutchinson <span className="callsign">V44MOD</span> - Treasurer <br/>
                     Patricia Isaac-Williams <span className="callsign">V44PAT</span> - President<br/>
-                    Jessica Warner <span className="callsign">V44KN</span> - Secretary
+                    Jessica Warner <span className="callsign">V44LW</span> - Secretary
                     </p>
                 </div>
                 
@@ -35,7 +35,7 @@ function Members() {
                     </p>
                     <p>
                         <span className="bold-italics">Committee:</span><br/>
-                        Basil Woods <span className="callsign">VV44KEN</span> - Chair<br/>
+                        Basil Woods <span className="callsign">VV44KBW</span> - Chair<br/>
                         Hugh Mallalieu <span className="callsign">V44KM</span>
                     </p>
                 </div>
@@ -48,7 +48,7 @@ function Members() {
                     <p>
                         Trevor Seaton <span className="callsign">V44KBT</span> - Team Leader<br/>
                         Lawson Adams <span className="callsign">V44KO</span><br/>
-                        Eric France <span className="callsign">V44KK</span> - Captian
+                        Erick France <span className="callsign">V44KK</span>
                     </p>
                     <p>
                         Amateur Radio Licensing<br/>
