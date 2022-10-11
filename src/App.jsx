@@ -6,6 +6,7 @@ import Members from "./pages/Members"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Footer from "./components/Footer"
+import ArticlePage from "./pages/ArticlePage"
 import { Routes, Route } from "react-router-dom"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/members" element={<Members />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/article/:id" element={<ArticlePage/>}/>
       </Routes>
       <Footer/>
     </div>

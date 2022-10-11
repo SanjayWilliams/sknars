@@ -13,12 +13,6 @@
     
 }
 
-.small {
-    font-size: .6rem;
-    text-transform: uppercase;
-    letter-spacing: 1.1px;
-}
-
 @media (min-width: 800px) {
     .article-container {
         min-height: 60vh;
