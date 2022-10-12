@@ -3,6 +3,7 @@
     margin: 0 auto;
     text-align: center;
     position: relative;
+    animation: slide-up 2s;
 }
 
 .about-title {

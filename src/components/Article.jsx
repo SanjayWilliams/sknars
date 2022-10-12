@@ -2,7 +2,7 @@ import "./Article.css"
 
 function Article(props) {
     return (
-        <div className="article-container">
+        <div className="article-container reveal">
             <img className="article-img" src={props.image}/>
             <div className="article-text-container">
                 <h2 className="article-title">{props.title}</h2>
