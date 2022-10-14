@@ -14,6 +14,7 @@ h2 {
 
 .members-container {
     padding: 2em;
+<<<<<<< HEAD
     margin: 0 auto;
     text-align: center;
 }
@@ -24,6 +25,9 @@ h2 {
 
 .subtitle {
     margin-bottom: 1em;
+=======
+    animation: slide-up 2s;
+>>>>>>> ae4b16a9036f1d584f06e58d42b963d909ab282b
 }
 
 .section-container {

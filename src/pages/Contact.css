@@ -7,6 +7,7 @@
     flex-direction: column;
     min-height: 50vh;
     justify-content: center;
+    animation: slide-up 2s;
 }
 
 .contact-logo {

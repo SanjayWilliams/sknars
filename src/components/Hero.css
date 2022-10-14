@@ -21,6 +21,7 @@ Link {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    animation: slide-up 2s;
 }
 
 .hero-text-container {

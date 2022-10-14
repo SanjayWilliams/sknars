@@ -20,4 +20,37 @@ h1,h2,h3 {
 
 .btn {
   cursor: pointer;
+  background: linear-gradient(to left, #14213D 50%, #219ebc 50%);
+  background-size: 200%;
+  background-position: right bottom;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) .5s;
+}
+
+.btn:hover {
+  /* background-color: #219ebc; */
+  background-position: left top;
+  
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0.2;
+    transform: translateY(200px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px)
+  }
 }
