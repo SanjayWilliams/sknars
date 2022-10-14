@@ -14,6 +14,16 @@ h2 {
 
 .members-container {
     padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.members-image {
+    max-width: 500px;
+}
+
+.subtitle {
+    margin-bottom: 1em;
 }
 
 .section-container {
@@ -35,4 +45,28 @@ h2 {
 
 .extra-space {
     margin-top: 2em
+}
+
+@media (min-width: 800px) {
+    .section-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        text-align: justify;
+        width: 80%;
+        margin-bottom: 5em;
+    }
+
+    .members-image {
+        width: 50%;
+        max-width: 600px;
+        height: 450px;
+    }
+
+    .members-text {
+        width: 50%
+    }
+
+
 }

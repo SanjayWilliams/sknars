@@ -7,8 +7,8 @@ function Members() {
 
             <h2 className="subtitle">Members of the Executive</h2>
             <div className="section-container">
-                <img />
-                <div>
+                <img className="members-image" src="./executive.jpg"/>
+                <div className="members-text">
                     <p className="italics">Back Row, Left to Right:</p>
                     <p>Kennedy DeSilver <span className="callsign">V44KEN</span> - Assistant Secretary <br/>
                     Roosevelt Howe <span className="callsign">V44KHR</span> - Vice President
@@ -25,8 +25,8 @@ function Members() {
 
             <h2 className="subtitle">Emergency Communications</h2>
             <div className="section-container">
-                <img/>
-                <div>
+                <img className="members-image" src="./emergency.jpg"/>
+                <div className="members-text">
                     <p>
                         <span className="bold-italics">Frequencies:</span><br/>
                         146.820Mhz - 600Khz General<br/>
@@ -44,7 +44,7 @@ function Members() {
 
             <h2 className="subtitle">Training Committee</h2>
             <div className="section-container">
-                <div>
+                <div className="members-text">
                     <p>
                         Trevor Seaton <span className="callsign">V44KBT</span> - Team Leader<br/>
                         Lawson Adams <span className="callsign">V44KO</span><br/>
@@ -57,7 +57,7 @@ function Members() {
                     </p>
                 </div>
 
-                <img/>
+                <img className="members-image"/>
             </div>
 
         </div>
