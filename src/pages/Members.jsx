@@ -5,8 +5,8 @@ function Members() {
         <div className="members-container">
             <h1 className="members-title">Members</h1>
 
-            <h2 className="subtitle">Members of the Executive</h2>
-            <div className="section-container">
+            <h2 className="subtitle first">Members of the Executive</h2>
+            <div className="section-container first">
                 <img className="members-image" src="./executive.jpg"/>
                 <div className="members-text">
                     <p className="italics">Back Row, Left to Right:</p>
@@ -23,10 +23,9 @@ function Members() {
                 
             </div>
 
-            <h2 className="subtitle">Emergency Communications</h2>
-            <div className="section-container">
-                <img className="members-image" src="./emergency.jpg"/>
-                <div className="members-text">
+            <h2 className="subtitle reveal">Emergency Communications</h2>
+            <div className="section-container reveal">
+                <div className="members-text alternate">
                     <p>
                         <span className="bold-italics">Frequencies:</span><br/>
                         146.820Mhz - 600Khz General<br/>
@@ -39,11 +38,13 @@ function Members() {
                         Hugh Mallalieu <span className="callsign">V44KM</span>
                     </p>
                 </div>
+                <img className="members-image" src="./emergency.jpg"/>
                 
             </div>
 
-            <h2 className="subtitle">Training Committee</h2>
-            <div className="section-container">
+            <h2 className="subtitle reveal">Training Committee</h2>
+            <div className="section-container reveal">
+            <img className="members-image" src="training.jpg"/>
                 <div className="members-text">
                     <p>
                         Trevor Seaton <span className="callsign">V44KBT</span> - Team Leader<br/>
@@ -56,8 +57,7 @@ function Members() {
                         Operating an Amateur Radio Station
                     </p>
                 </div>
-
-                <img className="members-image"/>
+                
             </div>
 
         </div>

@@ -14,9 +14,12 @@ h2 {
 
 .members-container {
     padding: 2em;
-<<<<<<< HEAD
     margin: 0 auto;
     text-align: center;
+}
+
+.members-title {
+    animation: slide-up 2s;
 }
 
 .members-image {
@@ -25,9 +28,6 @@ h2 {
 
 .subtitle {
     margin-bottom: 1em;
-=======
-    animation: slide-up 2s;
->>>>>>> ae4b16a9036f1d584f06e58d42b963d909ab282b
 }
 
 .section-container {
@@ -54,7 +54,7 @@ h2 {
 @media (min-width: 800px) {
     .section-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         margin: 0 auto;
         text-align: justify;
@@ -62,14 +62,32 @@ h2 {
         margin-bottom: 5em;
     }
 
+    .first {
+        animation: slide-up 3s;
+    }
+
+    .subtitle {
+        margin-bottom: 3em;
+    }
+
     .members-image {
         width: 50%;
         max-width: 600px;
         height: 450px;
+        border-radius: 15px;
+        transition: .5s;
+    }
+
+    .members-image:hover {
+        box-shadow: 5px 10px 20px gray;
     }
 
     .members-text {
-        width: 50%
+        width: 450px;
+    }
+
+    .alternate {
+        /* width: 20% */
     }
 
 
