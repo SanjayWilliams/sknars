@@ -1,5 +1,5 @@
 import "./ArticlePage.css"
-import articledata from "../data/articledata.js"
+import articledata from "../data/articledata.jsx"
 import { useParams } from "react-router-dom"
 
 function ArticlePage() {

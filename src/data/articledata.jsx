@@ -2,7 +2,7 @@ const articledata = [
     {
         id: 1,
         title:"Message from our President",
-        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat sem malesuada sem sollicitudin ornare. Nullam faucibus mauris vel arcu interdum, ut sollicitudin augue elementum. Nam efficitur turpis ipsum, quis sollicitudin erat auctor sed. Praesent vitae sodales dolor. Aliquam sed semper diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam cursus pretium nulla, et malesuada nisl consectetur non. Suspendisse in viverra lorem. Nulla finibus ...",
+        text: <p>As we stand on the threshold of the 50th anniversary of St. Kitts-Nevis Amateur Radio Society S.K.N.A.R.S., it is only fitting to look back at the past while considering the path ahead.<br></br> <br></br>Firstly, I take this opportunity to thank the founding members for their foresight in creating this Society which, even with its limited resources, still continue to exist.<br></br><br></br>Our outlook for the future of the Society is to establish our main headquarters which is pivotal in achieving many if not most of our dreams which include but not limited to:<br></br><br></br>Training Facility <br></br>functional unit that better enable the Society to respond during emergencies. <br></br><br></br>Therefore, it is easy to deduce that our work is cut out for us.</p>,
         image:"./president1.jpeg",
         author:"President",
         publishdate:"10 October 2022"
