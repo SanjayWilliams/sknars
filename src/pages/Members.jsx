@@ -34,7 +34,7 @@ function Members() {
                     </p>
                     <p>
                         <span className="bold-italics">Committee:</span><br/>
-                        Basil Woods <span className="callsign">VV44KBW</span> - Chair<br/>
+                        Basil Woods <span className="callsign">V44KBW</span> - Chair<br/>
                         Hugh Mallalieu <span className="callsign">V44KM</span>
                     </p>
                 </div>
