@@ -28,9 +28,10 @@ function Members() {
                 <div className="members-text alternate">
                     <p>
                         <span className="bold-italics">Frequencies:</span><br/>
-                        146.820Mhz - 600Khz General<br/>
-                        146.610 - 600Khz Tone 23<br/>
-                        466.825 - 5Mhz
+                        146.820 Mhz - 600 Khz General<br/>
+                        146.610 Mhz - 600 Khz Tone 123<br/>
+                        146.720 Mhz - 600 Khz Tone 123<br/>
+                        466.825 Mhz - 5 Mhz
                     </p>
                     <p>
                         <span className="bold-italics">Committee:</span><br/>
