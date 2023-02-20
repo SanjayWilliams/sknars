@@ -38,7 +38,7 @@ function App() {
         <Route path="/members" element={<Members />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/article/:id" element={<ArticlePage/>}/>
+        <Route path="/article/:articleId" element={<ArticlePage />}/>
       </Routes>
       <Footer/>
     </div>

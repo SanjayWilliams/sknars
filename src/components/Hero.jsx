@@ -14,7 +14,7 @@ function Hero() {
                 
             </div>
             <div className="hero-img-container">
-                <img className="hero-img" src="./darkradio.jpg"/>
+                <img className="hero-img" src="./newhome.jpg"/>
             </div>
         </div>
     )

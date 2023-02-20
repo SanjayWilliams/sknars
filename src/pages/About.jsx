@@ -5,7 +5,7 @@ function About() {
         <div className="about-container">
             <h1 className="about-title">About</h1>
             <div className="about-backdrop"></div>
-            <img className="about-img" src="radiomic.jpg"/>
+            <img className="about-img" src="newabout.jpg"/>
             <p className="about-body">The St. Kitts-Nevis-Anguilla Amateur Radio Society was launched on 7th November 1973 at &:00p.m. local time. The Chairman at this meeting was Lloyd Mac Pennyfeather, VP2KP, and venue was the "old" Red Cross building situated on Horsford Road, Basseterre.
 
             The formation, which took place at the Birdrock QTH (residence) of Sid May, VP2KH, was attended by the following Radio Amateurs:<br/><br/>

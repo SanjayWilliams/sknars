@@ -6,7 +6,11 @@ import { Link } from "react-router-dom"
 function Home() {
 
     const mappedarticle = articledata.map((article) => (
-        <Article title={article.title} text={article.text} image={article.image} author={article.author} publishdate={article.publishdate}/>
+        <div>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to={`/article/${article.id}`}>
+                <Article title={article.title} text={article.text} image={article.image} author={article.author} publishdate={article.publishdate}/>
+            </Link>
+        </div>
     ))
 
     return (
